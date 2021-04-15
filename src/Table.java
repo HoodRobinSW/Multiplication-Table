@@ -25,7 +25,6 @@ public class Table extends JFrame {
 	private List<JTextField> field;
 	private JButton btnCorregir,btnReset;
 	int alea;
-	private JTextField textField_1;
 	
 	public Table() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -37,9 +36,9 @@ public class Table extends JFrame {
 		
 		tags=new ArrayList<>();
 		field=new ArrayList<>();
-		setVisible(true);
 		definirVentana();
 		definirEvento();
+		setVisible(true);
 	}
 
 
